@@ -9,7 +9,7 @@ CODE SEGMENT
             MOV AX,A
             MOV BX,B
             SUB AX,BX
-            MOV CX,AX
+            MOV C,AX
             INT 3
 CODE ENDS
 END START
