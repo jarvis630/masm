@@ -7,7 +7,7 @@ DATA ENDS
 CODE SEGMENT
     START : MOV AX,DATA
             MOV DS,AX
-            MOV DX,MSG1
+            LEA DX,MSG1
             MOV AH,09H
             INT 21H
             MOV AH,01H
